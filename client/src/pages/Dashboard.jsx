@@ -7,7 +7,7 @@ function Dashboard() {
   const [title, setTitle] = useState("");
   const [status, setStatus] = useState("Pending");
 
-  const API = "http://localhost:5000/tasks";
+  const API = "https://task-management-application-4yvc.onrender.com/tasks";
 
   useEffect(() => {
     fetchTasks();
